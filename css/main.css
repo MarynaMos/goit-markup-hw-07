@@ -296,7 +296,10 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
+.contacts .item:hover,
+.contacts .item:focus {
+  color: var(--secondary-color);
+}
 .contacts .item + .item {
   margin-left: 50px;
 }
