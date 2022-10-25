@@ -6,15 +6,6 @@
     justify-content: center;
 }
 
-.icon-envelope {
-    margin-right: 10px;
-    fill: currentColor;
-}
-
-.icon-smartphone {
-    margin-right: 10px;
-    fill: currentColor;
-}
 
 .navigation {
     margin-left: 93px;
@@ -73,21 +64,29 @@
 
     display: flex;
     margin-left: auto;
-    .link {
+    gap: 50px;
+    &__link {
     color: var(--basik-text-color);
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-    .item {
+    &__item {
     display: flex;
     text-align: center;
     justify-content: center;
+    
     &:hover,
     &:focus {
         color: var(--secondary-color);
     }
 }
-    .item+.item {
-    margin-left: 50px;
+&__icon-envelope {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+&__icon-smartphone {
+    margin-right: 10px;
+    fill: currentColor;
 }
 }
