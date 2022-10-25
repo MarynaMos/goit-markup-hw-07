@@ -16,12 +16,11 @@ a {
 
 body {
     background-color: #ffffff;
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    font-family: $body-font-family;
+    font-weight: $base-font-weight;
+    font-size: $base-font-size;
     letter-spacing: 0.03em;
     color: var(--basik-text-color);
-
 }
 
 ul {

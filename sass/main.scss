@@ -1,9 +1,5 @@
-@import "./base/variables";
-@import "./base/utils";
 @import "./base/common";
-@import "./base/buttons";
-@import "./base/logo";
-@import "./base/socialicon";
+@import "./base/fonts";
 
 @import "./layouts/header";
 @import "./layouts/hero";
@@ -15,5 +11,10 @@
 @import "./layouts/footer";
 
 @import "./components/modal";
+@import "./components/buttons";
+@import "./components/logo";
+@import "./components/socialicon";
 
-@import "./base/mixins";
+@import "./utils/utils";
+@import "./utils/mixins";
+@import "./utils/variables";

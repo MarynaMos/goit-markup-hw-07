@@ -381,7 +381,10 @@ img {
   margin: 0;
   line-height: 1.7;
 }
-
+.section-work {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 .work {
   display: -webkit-box;
   display: -ms-flexbox;
